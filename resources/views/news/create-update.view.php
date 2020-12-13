@@ -16,6 +16,8 @@ inc('layouts.app-start'); ?>
                 <form method="post" action="<?= router()->url('news.store') ?>" enctype="multipart/form-data">
             <?php endif; ?>
 
+
+
                     <div class="mb-3">
                         <label for="formFile" class="form-label">Banner</label>
                         <input class="form-control <?= array_key_exists('banner', $errors) ? 'is-invalid' : ''?>" type="file" name="banner" id="formFile">

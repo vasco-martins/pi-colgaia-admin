@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 
 
 use App\Models\News;
+use App\Validators\InsertNewsValidator;
 use App\Validators\UpdateSettingsValidator;
 use App\Validators\InsertPageValidator;
 use Framework\Middlewares\AuthMiddleware;
@@ -46,14 +47,14 @@ class NewsController
 
     public function edit($id)
     {
-        $title = 'Editar Página';
+        $title = 'Editar Notícia';
         $page = News::find($id);
 
         return view('news.create-update', compact('title', 'page'));
     }
 
     public function update($id, Request $request) {
-        $data = InsertPageValidator::handle($request);
+        $data = InsertNewsValidator::handle($request);
         $page = News::find($id);
 
         $page->update($data);

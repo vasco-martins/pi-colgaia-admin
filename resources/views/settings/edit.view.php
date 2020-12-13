@@ -32,6 +32,7 @@ inc('layouts.app-start'); ?>
                 </div>
 
                 <?php
+
                 \Framework\Builders\BForm::input('text', 'websiteName','Nome do Website', config('global.websiteName'), $errors['websiteName'] ?? null);
                 \Framework\Builders\BForm::input('text', 'websiteDescription','Descrição do Website',  config('global.websiteDescription'), $errors['websiteDescription'] ?? null);
                 \Framework\Builders\BForm::input('email', 'email','Email',  config('global.email'), $errors['facebook'] ?? null);
@@ -39,8 +40,6 @@ inc('layouts.app-start'); ?>
                 \Framework\Builders\BForm::input('text', 'facebook','Facebook',  config('global.facebook'), $errors['facebook'] ?? null);
                 \Framework\Builders\BForm::input('text', 'instagram','Instagram',  config('global.instagram'), $errors['instagram'] ?? null);
                 \Framework\Builders\BForm::input('number', 'phone','Telemóvel',  config('global.phone'), $errors['phone'] ?? null);
-
-
                 ?>
 
                     <button type="submit" class="btn btn-primary">Atualizar</button>
