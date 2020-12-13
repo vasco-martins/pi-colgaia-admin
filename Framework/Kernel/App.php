@@ -25,8 +25,10 @@ class App
      */
     public function run(Router $router) {
         // Load .env file
-        $dotenv = Dotenv::createImmutable($this->basePath);
-        $dotenv->load();
+        if(file_exists($this->basePath . '/.env')) {
+            $dotenv = Dotenv::createImmutable($this->basePath);
+            $dotenv->load();
+        }
 
         self::getSessionInstance()->start();
 
