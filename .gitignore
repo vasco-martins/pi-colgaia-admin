@@ -1,0 +1,7 @@
+phinx.php
+.env
+
+public/uploads/*
+
+vendor/
+node_modules/

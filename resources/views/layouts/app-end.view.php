@@ -1,0 +1,3 @@
+<?php
+
+inc('inc.footer');
