@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d37b2db5-0e8d-46b6-8801-0050e69e20bd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/NewsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/NewsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/news/create-update.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/news/create-update.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/settings/edit.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/settings/edit.view.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +114,7 @@
       <workItem from="1607511414007" duration="3144000" />
       <workItem from="1607768420640" duration="644000" />
       <workItem from="1607769673170" duration="4151000" />
-      <workItem from="1607774112798" duration="46037000" />
+      <workItem from="1607774112798" duration="46433000" />
     </task>
     <servers />
   </component>
