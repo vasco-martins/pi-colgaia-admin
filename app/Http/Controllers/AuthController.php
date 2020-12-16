@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 
 
 use App\Models\User;
+use App\Validators\CreateUserValidator;
 use App\Validators\LoginValidator;
 use Framework\Auth\Auth;
 use Symfony\Component\HttpFoundation\Request;

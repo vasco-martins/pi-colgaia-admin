@@ -39,7 +39,7 @@ inc('layouts.app-start'); ?>
 
                 <div class="mb-3">
                     <label>Conteúdo</label>
-                    <textarea id="summernote" class="form-control" name="content"><?= $page->content ?? '' ?></textarea>
+                    <textarea autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" style"height:500px" id="summernote" class="form-control" name="content"><?= $page->content ?? '' ?></textarea>
                     <?php if(array_key_exists('content', $errors)) \Framework\Builders\BForm::error($errors['content']);?>
                 </div>
 

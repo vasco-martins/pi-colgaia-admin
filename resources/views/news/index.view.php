@@ -12,6 +12,7 @@
                 </div>
             </div>
 
+            <div class="table-responsive my-4" >
             <table class="table table-striped">
                 <thead>
                 <tr>
@@ -34,6 +35,7 @@
 
                 </tbody>
             </table>
+            </div>
         </div>
     </div>
 </div>

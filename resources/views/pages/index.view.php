@@ -1,7 +1,7 @@
 <?php inc('layouts.app-start'); ?>
 
 <div class="container">
-    <div class="card" >
+    <div class="card " >
         <div class="card-body">
             <div class="d-flex justify-content-between">
 
@@ -12,6 +12,7 @@
                 </div>
             </div>
 
+            <div class="table-responsive my-4">
             <table class="table table-striped">
                 <thead>
                 <tr>
@@ -40,6 +41,7 @@
 
                 </tbody>
             </table>
+            </div>
         </div>
     </div>
 </div>

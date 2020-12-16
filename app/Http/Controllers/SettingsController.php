@@ -6,14 +6,20 @@ namespace App\Http\Controllers;
 
 use App\Models\Option;
 use App\Models\User;
-use App\Validators\LoginValidator;
+use App\Validators\CreateUserValidator;
 use App\Validators\UpdateSettingsValidator;
 use Framework\Auth\Auth;
+use Framework\Middlewares\AuthMiddleware;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 
 class SettingsController
 {
+
+    public function __construct()
+    {
+        AuthMiddleware::handle();
+    }
 
     public function edit() {
         $title = 'Definições';

@@ -11,6 +11,11 @@
     <!-- include summernote css/js -->
     <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.css" rel="stylesheet">
 
-    <title><?= config('app.name') ?></title>
+    <!-- Datatables -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css">
+
+    <link href="<?= assets('css/styles.css')?>" rel="stylesheet">
+
+    <title><?= config('global.websiteName') ?></title>
 </head>
 <body>

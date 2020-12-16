@@ -32,7 +32,7 @@ class NewsController
     }
 
     public function store(Request $request) {
-        $data = UpdateSettingsValidator::handle($request);
+        $data = InsertNewsValidator::handle($request);
 
         $page = News::create($data);
 

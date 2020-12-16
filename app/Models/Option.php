@@ -28,7 +28,7 @@ class Option extends Model
 
         $slugger = new AsciiSlugger();
         $safeFilename = $slugger->slug($originalFilename);
-        $newFilename = $safeFilename.'-'.uniqid().'.'.$file->guessExtension();
+        $newFilename = $safeFilename.'-'.uniqid().'.'. $file->guessExtension();
 
         $file->move(getBasePath() . '/public/uploads/', $newFilename);
 
