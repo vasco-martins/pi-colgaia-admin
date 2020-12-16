@@ -5,31 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d37b2db5-0e8d-46b6-8801-0050e69e20bd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ImageController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/MessageController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Message.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Validators/CreateUserValidator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/messages/index.view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/messages/show.view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/users/create-update.view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/users/index.view.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AuthController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/NewsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/NewsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SettingsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SettingsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Option.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Option.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/inc/footer.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/inc/footer.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/inc/header.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/inc/header.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/inc/navbar.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/inc/navbar.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app-end.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app-end.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/news/index.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/news/index.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/create-update.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/create-update.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/index.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/index.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,8 +118,17 @@
       <workItem from="1607937374429" duration="860000" />
       <workItem from="1608024993213" duration="4383000" />
       <workItem from="1608041058266" duration="1438000" />
-      <workItem from="1608066755408" duration="3602000" />
+      <workItem from="1608066755408" duration="4214000" />
+      <workItem from="1608138484521" duration="502000" />
     </task>
+    <task id="LOCAL-00001" summary="Add features">
+      <created>1608116866019</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608116866019</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,6 +145,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add features" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add features" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
